@@ -1,7 +1,7 @@
 .banner{
     background-image: url('https://i.ibb.co.com/nN0L9Qfk/Study-Abroad-Copy-2.png');
-    width: 1440px;
-    height: 532px;
+    width: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 flex-shrink: 0;
 }

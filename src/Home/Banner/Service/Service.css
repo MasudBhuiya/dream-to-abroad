@@ -1,0 +1,37 @@
+.service{
+    color: #838383;
+text-align: center;
+font-family: Sora;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.service-header{
+    color: #00215C;
+text-align: center;
+font-family: Sora;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.cart{
+width: 170px;
+padding: 24px 16px;
+gap: 10px;
+}
+
+.cart-text{
+    color: #000;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
