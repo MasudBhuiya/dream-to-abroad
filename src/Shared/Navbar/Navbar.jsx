@@ -21,13 +21,18 @@ const Navbar = () => {
     </div>
     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
     <li><Link to="/">Home</Link></li>
+      <li><Link to="/destination">Study Destination</Link></li>
+      <li><Link to="/university">Find University</Link></li>
+      <li><Link to="/skills">Skills</Link></li>
+      <li><Link to="/networking">Networking</Link></li>
       <li><Link to="/about">About Us</Link></li>
-      <li><Link to="/shop">Shop</Link></li>
-      <li><Link to="/blog">Blog</Link></li>
-      <li><Link to="/contact">Contact</Link></li>
+      <li><Link to="/contact">Contact Us</Link></li>
       <div className='flex gap-6 mt-3'>
-  <Link to="/myaddedlist"></Link>
-  {/* {user ? <><button className="btn btn-success text-white" onClick={handleLogout}>LogOut</button></> : <button className="btn btn-success text-white"><Link to='/login'>Login</Link></button>} */}
+      <Link className='flex items-center gap-2 mr-6 text-[16px] font-semibold'>
+<img className='' src="https://i.ibb.co.com/xq5pVQW7/elements-2.png" alt="" />
+    <p className=''>Login</p>
+</Link>
+<button className="btn bg-[#6757F1] rounded-3xl px-6 text-white">Sign Up</button>
       </div>
     </ul>
     
@@ -40,11 +45,11 @@ const Navbar = () => {
 <div className=" hidden lg:flex items-center justify-center w-full">
   <ul className="menu menu-horizontal  font-semibold px-1">
   <li><Link to="/">Home</Link></li>
-      <li><Link to="/about">Study Destination</Link></li>
-      <li><Link to="/shop">Find University</Link></li>
-      <li><Link to="/blog">Skills</Link></li>
-      <li><Link to="/contact">Networking</Link></li>
-      <li><Link to="/contact">About Us</Link></li>
+      <li><Link to="/destination">Study Destination</Link></li>
+      <li><Link to="/university">Find University</Link></li>
+      <li><Link to="/skills">Skills</Link></li>
+      <li><Link to="/networking">Networking</Link></li>
+      <li><Link to="/about">About Us</Link></li>
       <li><Link to="/contact">Contact Us</Link></li>
   </ul>
 </div>

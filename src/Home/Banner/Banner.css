@@ -1,0 +1,41 @@
+.banner{
+    background-image: url('https://i.ibb.co.com/nN0L9Qfk/Study-Abroad-Copy-2.png');
+    width: 1440px;
+    height: 532px;
+    background-repeat: no-repeat;
+flex-shrink: 0;
+}
+
+.banner-header{
+    width: 579px;
+    font-family: Sora;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 58px; /* 120.833% */
+text-transform: capitalize;
+background: linear-gradient(90deg, #6199FF 0%, #FF57F6 101.64%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.banner-sub-header{
+    color: #00215C;
+font-family: Sora;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 58px; /* 120.833% */
+text-transform: capitalize;
+}
+
+.banner-p{
+    color: #4A618A;
+font-family: Sora;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
