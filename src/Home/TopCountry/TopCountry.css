@@ -1,0 +1,53 @@
+.top-country{
+    background-image: url('https://i.ibb.co.com/fg33D0n/3d-icon-traveling-vacation-1.png');
+}
+
+.top{
+    color: #838383;
+text-align: center;
+font-family: Sora;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.country-header{
+    color: #00215C;
+text-align: center;
+font-family: Sora;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.country-img1{
+    background-image: url('https://i.ibb.co.com/yMkp6M9/image.png');
+}
+.country-img2{
+    background-image: url('https://i.ibb.co.com/TDQGyKtF/image-1.png');
+}
+.country-img3{
+    background-image: url('https://i.ibb.co.com/TxccCgq2/image-1.png');
+}
+.country-img4{
+    background-image: url('https://i.ibb.co.com/bytxrR5/image-2.png');
+}
+.country-img5{
+    background-image: url('https://i.ibb.co.com/4ZyFWhxq/image-3.png');
+}
+
+/* work section  */
+.work-header{
+    color: #00215C;
+text-align: center;
+font-family: Sora;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
