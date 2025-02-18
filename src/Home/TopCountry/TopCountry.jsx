@@ -2,39 +2,39 @@ import React from 'react';
 import '../TopCountry/TopCountry.css'
 const TopCountry = () => {
     return (
-        <>
+        <div className='my-20'>
 
-        <div className=' mt-20 top-country py-20'>
+        <div className='  top-country py-20'>
 
             <p className='top px-5'>TOP COUNTRY</p>
             <h1 className='country-header px-5'>Best Country to study abroad</h1>
 
-            <div className='mt-12 max-w-[1440px] mx-auto px-5 flex flex-wrap justify-center items-center gap-5'>
-                <div className='country-img1 h-[220px] rounded-2xl relative w-[195px]'>
+            <div className='mt-12 max-w-[1440px] mx-auto px-5 grid grid-cols-2 sm:flex sm:flex-wrap justify-center items-center gap-5'>
+                <div className='country-img1 h-[220px] mx-auto sm:mx-0 rounded-2xl relative w-[100%] sm:w-[195px] '>
                     <div className='absolute bottom-4 left-3'>
                     <img  src="https://i.ibb.co.com/ccjH0fnW/image-3.png" alt="" />
                     <p className=' text-sm mt-1 text-white'>USA</p>
                     </div>
                 </div>
-                <div className='country-img2 h-[220px] rounded-2xl relative w-[195px]'>
+                <div className='country-img2 h-[220px] mx-auto sm:mx-0 rounded-2xl relative w-[100%] sm:w-[195px] '>
                     <div className='absolute bottom-4 left-3'>
                     <img  src="https://i.ibb.co.com/9HzdFX73/image-2.png" alt="" />
                     <p className=' text-sm mt-1 text-white'>Australia</p>
                     </div>
                 </div>
-                <div className='country-img3 h-[220px] rounded-2xl relative w-[195px]'>
+                <div className='country-img3 h-[220px] mx-auto sm:mx-0 rounded-2xl relative w-[100%] sm:w-[195px] '>
                     <div className='absolute bottom-4 left-3'>
                     <img  src="https://i.ibb.co.com/jkBWvR7T/image-4.png" alt="" />
                     <p className=' text-sm mt-1 text-white'>Canada</p>
                     </div>
                 </div>
-                <div className='country-img4 h-[220px] rounded-2xl relative w-[195px]'>
+                <div className='country-img4 h-[220px] mx-auto sm:mx-0 rounded-2xl relative w-[100%] sm:w-[195px] '>
                     <div className='absolute bottom-4 left-3'>
                     <img  src="https://i.ibb.co.com/whMNwTYL/image-5.png" alt="" />
                     <p className=' text-sm mt-1 text-white'>United Kingdom</p>
                     </div>
                 </div>
-                <div className='country-img5 h-[220px] rounded-2xl relative w-[195px]'>
+                <div className='country-img5 h-[220px] mx-auto sm:mx-0 rounded-2xl relative w-[100%] sm:w-[195px] '>
                     <div className='absolute bottom-4 left-3'>
                     <img  src="https://i.ibb.co.com/cSQghpDV/image-6.png" alt="" />
                     <p className=' text-sm mt-1 text-white'>Europe</p>
@@ -74,7 +74,7 @@ const TopCountry = () => {
 </div>
 </div>
 
-</>
+</div>
     );
 };
 

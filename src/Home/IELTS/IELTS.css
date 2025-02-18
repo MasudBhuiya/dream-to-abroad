@@ -1,0 +1,49 @@
+.ielts{
+    display: flex;
+flex-direction: column;
+gap: 48px;
+align-self: stretch;
+background: #0A0830;
+}
+
+.ielts-header{
+    color: #FFF;
+text-align: center;
+font-family: Sora;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.ielts-design{
+    color: #6757F1;
+text-align: center;
+font-family: Poppins;
+font-size: 90.308px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.steps{
+    color: #A8A5E3;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.ielts-design2{
+    color: #6757F1;
+text-align: center;
+font-family: Poppins;
+font-size: 34.972px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
