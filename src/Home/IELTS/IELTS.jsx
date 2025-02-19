@@ -2,7 +2,7 @@ import React from 'react';
 import '../IELTS/IELTS.css'
 const IELTS = () => {
     return (
-        <div className='ielts md:rounded-3xl px-5 py-14 md:px-12 max-w-[1170px] mx-auto my-16 text-white'>
+        <div className='ielts md:rounded-3xl px-5 py-14 md:px-12 max-w-[1130px] mx-auto my-16 text-white'>
             <div >
             <p className='text-sm text-center text-[#A8A5E3]'>IELTS</p>
             <h1 className='ielts-header'>We provide IELTS online classes</h1>

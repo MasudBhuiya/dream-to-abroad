@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
       
       <div>
-          <div className="navbar max-w-[1440px] mx-auto px-5 ">
+          <div className="navbar max-w-[1170px] mx-auto px-5 ">
 <div className="navbar-start w-fit">
   <div className="dropdown">
     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -42,7 +42,7 @@ const Navbar = () => {
   <p className='p-0 font-bold text-start text-[16px] text-[#4B3DBF] -mt-2'>Abroad</p>
     </div></Link>
 </div>
-<div className=" hidden lg:flex items-center justify-center w-full">
+<div className=" hidden lg:flex items-center justify-center w-full ">
   <ul className="menu menu-horizontal  font-semibold px-1">
   <li><Link to="/">Home</Link></li>
       <li><Link to="/destination">Study Destination</Link></li>
