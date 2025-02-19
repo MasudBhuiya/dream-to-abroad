@@ -3,7 +3,7 @@
 flex-direction: column;
 gap: 48px;
 align-self: stretch;
-background: #0A0830;
+background: linear-gradient(to right, #0A0830, #1f1766);
 }
 
 .ielts-header{

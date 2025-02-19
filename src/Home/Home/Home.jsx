@@ -5,6 +5,7 @@ import TopCountry from '../TopCountry/TopCountry';
 import IELTS from '../IELTS/IELTS';
 import StudentsReview from '../StudentsReview/StudentsReview';
 import Questions from '../Questions/Questions';
+import Apply from '../Apply/Apply';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <IELTS></IELTS>
             <StudentsReview></StudentsReview>
             <Questions></Questions>
+            <Apply></Apply>
         </div>
     );
 };

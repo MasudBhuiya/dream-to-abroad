@@ -3,9 +3,9 @@ import React from 'react';
 const StudentsReview = () => {
     return (
         <div>
-            <div className='mt-32 max-w-[1170px] mx-auto'>
+            <div className='mt-14 md:mt-32 mb-8 max-w-[1170px] mx-auto px-5 lg:px-0'>
                 <p className='service'>Reviews</p>
-            <h1 className='service-header'>What our students say</h1>
+            <h1 className='service-header mb-8 md:mb-0'>What our students say</h1>
 
             <div className="carousel w-full">
   <div id="slide1" className="carousel-item relative w-full">

@@ -9,7 +9,7 @@ const TopCountry = () => {
             <p className='top px-5'>TOP COUNTRY</p>
             <h1 className='country-header px-5'>Best Country to study abroad</h1>
 
-            <div className='mt-12 max-w-[1440px] mx-auto px-5 grid grid-cols-2 sm:flex sm:flex-wrap justify-center items-center gap-5'>
+            <div className='mt-12 max-w-[1170px] mx-auto px-5 lg:px-0 grid grid-cols-2 sm:flex sm:flex-wrap justify-center items-center gap-5'>
                 <div className='country-img1 h-[220px] mx-auto sm:mx-0 rounded-2xl relative w-[100%] sm:w-[195px] '>
                     <div className='absolute bottom-4 left-3'>
                     <img  src="https://i.ibb.co.com/ccjH0fnW/image-3.png" alt="" />

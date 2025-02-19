@@ -2,8 +2,8 @@ import React from 'react';
 import '../Banner/Banner.css'
 const Banner = () => {
     return (
-        <div className='banner w-full h-[50vh] md:h-[80vh]'>
-           <div className='px-5 max-w-[1170px] mt-[7vh] md:pt-[15vh] mx-auto'>
+        <div className='banner w-full mt-0 h-[50vh] md:h-[80vh]'>
+           <div className='px-5 lg:px-0 max-w-[1170px] pt-[7vh] md:pt-[15vh] mx-auto'>
             <h1 className='banner-header text-4xl md:text-5xl text-center md:text-start'>Move Student</h1>
             <h1 className='banner-sub-header text-4xl md:text-5xl my-3 md:text-start'>To Their Dream Country</h1>
             <p className='banner-p text-lg md:text-xl md:text-start'>Identify the problem and work on solving it</p>
